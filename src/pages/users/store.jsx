@@ -5,7 +5,7 @@ import Router from "next/router";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const store = () => {
+const Store = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [gender, setGender] = useState("");
@@ -166,4 +166,4 @@ const store = () => {
   );
 };
 
-export default store;
+export default Store;

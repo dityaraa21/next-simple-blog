@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-gray-700">
       <div className="max-w-[1240px] m-auto flex justify-between items-center sm:py-2 py-4 px-10 text-white">
         <Link href="/">
-          <h1 className="font-bold text-3xl text-white">Blog's</h1>
+          <h1 className="font-bold text-3xl text-white">BlogZ</h1>
         </Link>
         <ul className="hidden sm:flex gap-4">
           <li className="p-4 text-xl">
