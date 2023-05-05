@@ -23,7 +23,10 @@ const Card = ({ posts }) => {
           bodyText += "....";
         }
         return (
-          <div class="max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative">
+          <div
+            key={item.id}
+            class="max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative"
+          >
             <a href="#">
               <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 {item.title}
